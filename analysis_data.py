@@ -1,8 +1,10 @@
 #coding=utf-8
-import pandas as pd
-import numpy as np
-from pandas import Series, DataFrame
+
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from pandas import DataFrame, Series
+from sklearn import cross_validation
 
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 中文标签字体
 
@@ -153,3 +155,4 @@ if __name__ == '__main__':
     embarked_survived()
     sibsp_survived()
     if_cabin_survived()
+    
